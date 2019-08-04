@@ -2,8 +2,8 @@ def roll_call_dwarves(members)
   members.map{|member| puts member}
 end
 
-def summon_captain_planet# code an argument here
-  # Your code here
+def summon_captain_planet(planeteers)
+  planeteers.map{|planeteer| "#{planeteer.capitilize}!"  
 end
 
 def long_planeteer_calls# code an argument here
