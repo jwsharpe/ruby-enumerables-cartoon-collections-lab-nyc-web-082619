@@ -1,5 +1,5 @@
 def roll_call_dwarves(members)
-  members.each_with_index{|member,i| puts "#{i}. #{member}"}
+  members.each_with_index{|member,i| puts "#{i+1}. #{member}"}
 end
 
 def summon_captain_planet(planeteers)
