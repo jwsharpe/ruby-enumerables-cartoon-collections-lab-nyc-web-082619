@@ -7,7 +7,7 @@ def summon_captain_planet(planeteers)
 end
 
 def long_planeteer_calls(calls)
-  calls.select{|word| word.length>=4}.empty?
+  !calls.select{|word| word.length>4}.empty?
 end
 
 def find_the_cheese(ingredients)
